@@ -9,6 +9,8 @@ export const typeDefs = `
   type Mutation {
   
   appendCar(car:AppendCar):Car
+  replaceCar(car:ReplaceCar):Car
+  appendWidget(widget:AppendWidget):Widget
   
   }
   
@@ -46,5 +48,28 @@ export const typeDefs = `
       
   
   }
+  
+  input AppendWidget {
+
+    name: String
+    description: String
+    color: String
+    size: String
+    price: Int
+    quantity: Int
+      
+  
+  }
+  
+   input ReplaceCar {
+      id: ID!
+      make: String
+      model: String
+      year: Int
+      color: String
+      price: Float
+  }
+  
+  
   
 `;
