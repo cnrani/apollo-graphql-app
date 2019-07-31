@@ -25,118 +25,28 @@
       "id": 3
     },
     {
-      "id": 4,
-      "make": "LexusUpdated",
-      "model": "ES",
-      "year": 2020,
-      "color": "silver",
-      "price": 50000
+      "make": "ddd",
+      "model": "ddd",
+      "year": 34445,
+      "color": "d",
+      "price": 3444,
+      "id": 4
     },
     {
-      "make": "Lexus",
-      "model": "ES",
-      "year": 2020,
-      "color": "silver",
-      "price": 50000,
+      "make": "test",
+      "model": "test",
+      "year": 567,
+      "color": "test",
+      "price": 6777,
       "id": 5
     },
     {
-      "make": "Lexus",
-      "model": "ES",
-      "year": 2020,
-      "color": "silver",
-      "price": 50000,
+      "make": "ddd",
+      "model": "ddd",
+      "year": 333,
+      "color": "ddd",
+      "price": 3333,
       "id": 6
-    },
-    {
-      "make": "Lexus",
-      "model": "ES",
-      "year": 2020,
-      "color": "silver",
-      "price": 50000,
-      "id": 7
-    },
-    {
-      "make": "LexusUpdated",
-      "model": "ES",
-      "year": 2020,
-      "color": "silver",
-      "price": 50000,
-      "id": 8
-    }
-  ],
-  "widgets": [
-    {
-      "id": 1,
-      "name": "Widget A",
-      "description": "Small, Red Widget",
-      "color": "red",
-      "size": "small",
-      "price": 10,
-      "quantity": 99
-    },
-    {
-      "id": 2,
-      "name": "Widget B",
-      "description": "Medium, Blue Widget",
-      "color": "blue",
-      "size": "medium",
-      "price": 5,
-      "quantity": 50
-    },
-    {
-      "id": 3,
-      "name": "Widget C",
-      "description": "Large, Yellow Widget",
-      "color": "yellow",
-      "size": "large",
-      "price": 15,
-      "quantity": 75
-    },
-    {
-      "id": 4,
-      "name": "Widget D",
-      "description": "Medium, Red Widget",
-      "color": "red",
-      "size": "medium",
-      "price": 20,
-      "quantity": 21
-    },
-    {
-      "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "id": 7
-    },
-    {
-      "id": 8
-    },
-    {
-      "id": 9
-    },
-    {
-      "id": 10
-    },
-    {
-      "id": 11
-    },
-    {
-      "id": 12
-    },
-    {
-      "id": 13
-    },
-    {
-      "name": "Widget E",
-      "description": "Medium, Blue Widget",
-      "color": "blue",
-      "size": "small",
-      "price": 200,
-      "quantity": 201,
-      "id": 14
     }
   ]
 }

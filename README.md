@@ -66,3 +66,25 @@ npm run start-client-cygwin
 ```
 
 If you are using the Windows Command Prompt (default on Windows), then use the original commands listed in the instructions.
+
+
+Replace car's graphql query
+
+mutation ReplaceCar($car: ReplaceCar) {
+    replaceCar(car: $car) {
+      id
+      make
+      model
+      year
+      color
+      price
+   }
+  }
+  
+  query variable -
+  {
+    "car": {
+      "id":4,"make":"LexusUpdated","model":"ES",
+      "year":2020,"color":"silver","price":50000
+    }
+  }
