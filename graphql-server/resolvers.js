@@ -2,7 +2,8 @@ import fetch from 'node-fetch';
 
 export const resolvers = {
   Query: {
-    message: () => 'Hello World!',  //need to send string
+    message: () => 'Hello World!',  //need to send string and define in schema. The above functions cars, message  are invoked by appolo server
+    //based on the query , resolver fetches the data and based on the schema.js , it displays the data
     cars: (_1, _2, {restURL}) => {
 
       return fetch(`${restURL}/cars`)

@@ -2,7 +2,7 @@ export const typeDefs = `
   type Query {
     message: String
     cars: [Car]
-    widgets: [Widget]
+    widgets: [Widget] 
     
   }
   

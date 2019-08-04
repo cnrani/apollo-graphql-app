@@ -88,3 +88,48 @@ mutation ReplaceCar($car: ReplaceCar) {
       "year":2020,"color":"silver","price":50000
     }
   }
+  
+  
+  
+  
+  //Exercises
+  
+  Exercise 1
+  
+  1. In the db.json file there is some widgets data. Create a schema type for the a Widget, and add a schema entry to the Query type for return all of the widgets.
+  
+  2. Add a resolver entry to return the widgets.
+  
+  3. Write a GraphQL query to query all of the widgets and run it in the GraphQL playground.
+  
+  
+  Exercise 2
+  
+  1. Copy the CarTable component (and any extra components needed) to the Apollo application. You may put them in the components folder (create the folder if needed)
+  
+  2. Utilize the CarTable component in App.js to display the table of cars. Do not worry about the button on the row, don't delete them but just provide noop functions to them.
+  
+  3. Ensure it works.
+
+Exercise 3
+
+1. Implement AppendWidget for the Widgets.
+
+2. Implement ReplaceCar and ReplaceWidget mutation. So the replace, will take the car or widget passed in and replace the widget on the REST service.
+
+3. Test the AppendWidget, ReplaceCar and ReplaceWidget mutations in the GraphQL playground.
+
+4. Ensure it works.
+
+Exercise 4
+
+1. Using the client setEditCarId, upgrade the Car Table in the Apollo Car Tool App to display the edit row when the edit button it clicked on the table.
+
+2. Implement the Delete, Save and Cancel button for the Apollo Car Tool application.
+
+3. Ensure Add Car, Edit Car, Delete Car, Save Car, and Cancel Car all work. For the operations which require writing data to the server, ensure the data is written.
+
+4. After Adding, Saving, and Deleting, ensure the editCarId is set to -1.
+
+5. Ensure it all works.
+

@@ -17,20 +17,20 @@
       "price": 125000
     },
     {
+      "id": 3,
       "make": "Lexus",
       "model": "ES",
       "year": 2020,
       "color": "silver",
-      "price": 50000,
-      "id": 3
+      "price": 500001
     },
     {
+      "id": 4,
       "make": "ddd",
       "model": "ddd",
       "year": 34445,
       "color": "d",
-      "price": 3444,
-      "id": 4
+      "price": 34441
     },
     {
       "make": "test",
@@ -47,6 +47,22 @@
       "color": "ddd",
       "price": 3333,
       "id": 6
+    },
+    {
+      "make": "ddd",
+      "model": "333",
+      "year": 333,
+      "color": "ccc",
+      "price": 333,
+      "id": 7
+    },
+    {
+      "make": "test",
+      "model": "test",
+      "year": 233,
+      "color": "res",
+      "price": 2566,
+      "id": 8
     }
   ]
 }
